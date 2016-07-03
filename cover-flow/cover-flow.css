@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+}
+
+.slide-wrapper {
+	background-size: 100% 100%;
+	width: 1092px;
+	height: 385px;
+	overflow: hidden;
+}
+
+#background {
+	background-image: url("./img/Kazan/min_agric.jpg");
+}
+
+.custom-wrapper {
+	position: relative;
+	height: 199px;
+	width: 723px;
+	margin: 106px auto;
+
+	/** Just for debugging
+	outline: 2px solid green;*/
+}
+
+.clear {
+	clear: both;
+}
+
+#slide-text {
+	position: absolute;
+
+	width: 199px;
+
+	top: 90px;
+	left: 262px;
+
+	z-index: 5;
+
+	color: white;
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+#slide-link {
+	position: absolute;
+
+	width: 199px;
+
+	top: 120px;
+	left: 262px;
+
+	z-index: 5;
+	text-align: center;
+}
+
+#slide-link a {
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+.mini-slide {
+	position: absolute;
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.left-arrow {
+	background-image: url("./img/arrowL.png");
+	background-size: 100% 100%;
+
+	position: absolute;
+	top: 85px;
+	left: 0;
+
+	height: 43px;
+	width: 43px;
+
+	border: 3px solid black;
+	border-radius: 100%;
+	z-index: 3;
+	opacity: 0;
+}
+
+.right-arrow {
+	background-image: url("./img/arrowR.png");
+	background-size: 100% 100%;
+
+	position: absolute;
+	top: 85px;
+	right: 0;
+
+	height: 43px;
+	width: 43px;
+
+	border: 3px solid black;
+	border-radius: 100%;
+	z-index: 3;
+}
+
+#mini01 {
+	left: 262px;
+	top: 0px;
+	width: 199px;
+	height: 199px;
+	background-image: url("./img/Kazan/kazan_kremlin_sunset.jpg");
+	background-size: 100% 100%;
+	z-index: 3;
+	opacity: 1;
+}
+
+#mini02 {
+	left: 433px;
+	top: 33px;
+	width: 137px;
+	height: 137px;
+	background-image: url("./img/Kazan/Kazan_Kremlin_at_night.jpg");
+	background-size: 100% 100%;
+	z-index: 2;
+	opacity: 1;
+}
+
+#mini03 {
+	left: 556px;
+	top: 56px;
+	width: 101px;
+	height: 101px;
+	background-image: url("./img/Kazan/min_agric_02.jpg");
+	background-size: 100% 100%;
+	z-index: 1;
+	opacity: 1;
+}
+
+#mini04 {
+	left: 656px;
+	top: 56px;
+	width: 101px;
+	height: 101px;
+	background-image: url("./img/Kazan/Kazan02.jpg");
+	background-size: 100% 100%;
+	z-index: 0;
+	opacity: 0;
+}
+
+#mini05 {
+	left: 656px;
+	top: 56px;
+	width: 101px;
+	height: 101px;
+	background-image: url("./img/Kazan/Kazan01.jpg");
+	background-size: 100% 100%;
+	z-index: 0;
+	opacity: 0;
+}
